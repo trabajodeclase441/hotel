@@ -6,8 +6,21 @@ import com.mycompany.hotel.objetos.Habitacion;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
+/**
+ * Clase que representa un proyecto refactorizado y optimizado.
+ * 
+ * @author Pedro
+ * @version 1.2
+ */
 public class Hotel {
 
+    /**
+     * Método que realiza un menor.
+     * 
+     * @param idCliente este representa el id del cliente que es unico y no se pudede repetir.
+     * @param idEmpleado este representa el id del empleado que es unico y no se pudede repetir.
+     */
     public static void main(String[] args) {
         Scanner sca = new Scanner(System.in);
         ArrayList<Cliente> clientes = new ArrayList<Cliente>();
